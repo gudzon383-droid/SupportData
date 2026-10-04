@@ -46,6 +46,7 @@
   </languages>
   <subsystems>Subsystem.Классификация</subsystems>
   <roles>Role.Вспом_ОсновнаяРоль</roles>
+  <filterCriteria>FilterCriterion.КритерийУскорения</filterCriteria>
   <commonModules>CommonModule.ПрочиеМеханизмыВызовСервера</commonModules>
   <catalogs>Catalog.КатегорииТоваров</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>

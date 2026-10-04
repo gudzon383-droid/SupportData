@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bb52624-37f8-4e3e-8147-0920f930cf6b">
+  <producedTypes>
+    <listType typeId="f6cb3bd3-f5e2-4f5a-9868-5bac646f9848" valueTypeId="973e6ea2-44c4-4c60-8d02-8d2a943bc942"/>
+    <managerType typeId="57096371-dd69-4a77-95ec-68f592dfcb9a" valueTypeId="1591e66e-a325-4955-91bf-90fce56823bf"/>
+  </producedTypes>
+  <name>КритерийУскорения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Критерий ускорения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.КатегорииТоваров</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:FilterCriterion>
