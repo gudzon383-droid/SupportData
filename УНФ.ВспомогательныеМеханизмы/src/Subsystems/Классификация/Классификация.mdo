@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="077d557c-db28-4cd6-8c5d-8a0c52eff059">
+  <name>Классификация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.КатегорииТоваров</content>
+</mdclass:Subsystem>

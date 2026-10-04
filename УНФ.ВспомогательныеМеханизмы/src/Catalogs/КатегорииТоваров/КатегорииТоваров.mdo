@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bf2afa-bc8f-43df-87ff-c283df070925">
+  <producedTypes>
+    <objectType typeId="21482816-de36-450d-adc3-3cc9eb098aaf" valueTypeId="991f88b9-f3d7-4dd8-8ae2-d1eff460c538"/>
+    <refType typeId="3da3e727-c778-49c8-9512-bc58f44aebc7" valueTypeId="8aa1fc49-811e-4132-be49-b02d07e16200"/>
+    <selectionType typeId="1686c149-d023-462f-b101-9960a69e3b99" valueTypeId="3205d99d-625f-4ed5-858a-1205474391c0"/>
+    <listType typeId="aea9ac1f-9fe7-4097-9d75-ca1b39e90c89" valueTypeId="69936eb3-45ce-4b17-9e4e-7ebaf0fa6a01"/>
+    <managerType typeId="146fa011-3316-4038-9cf0-fb8ba4f75abc" valueTypeId="eae7338e-56d2-4bb4-bba8-76e9673dc9f8"/>
+  </producedTypes>
+  <name>КатегорииТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииТоваров.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КатегорииТоваров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="aba82f6e-0084-43ad-bfd9-85b010cbfa5b">
+      <name>БазоваяКатегория</name>
+      <description>Базовая категория</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="d20029b4-bed2-4032-b1f2-5d466d2032bd">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

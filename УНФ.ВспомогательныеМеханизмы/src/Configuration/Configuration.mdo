@@ -44,6 +44,9 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Классификация</subsystems>
   <roles>Role.Вспом_ОсновнаяРоль</roles>
   <commonModules>CommonModule.ПрочиеМеханизмыВызовСервера</commonModules>
+  <catalogs>Catalog.КатегорииТоваров</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
 </mdclass:Configuration>
